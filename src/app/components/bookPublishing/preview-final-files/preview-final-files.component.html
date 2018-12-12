@@ -1,0 +1,36 @@
+<div class="container">
+    <div class="row">
+      <div class="col-sm-2">
+          <app-sidenav [titleInfo]="true"  [coverDesign]="true"  [sendReview]="true"  [finish]="finishedParam"></app-sidenav>
+      </div>
+      <div class="col-sm-10 text-center">
+        <div class="">
+          <h1>Success</h1>
+          <p>Preview the final print-ready files for your book</p>
+         <div class="card cardbox cardbg">
+            <h5 class="text-left" style="padding-left:15px;">Finished Files</h5>
+          <div class="card-body">
+            <div class="row">
+             <div class="col-sm-6 col-12 col-lg-6 ">
+              <p class="float-left">Cover Design</p>
+             </div>
+             <div class="col-sm-6 col-12 col-lg-6">
+                <a class="float-left text-danger">: Preview</a>
+              </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-12 col-lg-6 ">
+                 <p class="float-left">Published Date</p>
+                </div>
+                <div class="col-sm-6 col-12 col-lg-6">
+                   <a class="float-left text-dark">:
+                      {{date | date: 'dd-MM-yyyy hh:mm:ss a'}}
+                    </a>
+                 </div>
+               </div>
+          </div>
+         </div>
+        </div>
+      </div>
+    </div>
+  </div>

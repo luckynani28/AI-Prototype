@@ -1,0 +1,104 @@
+/*
+    DEMO STYLE
+*/
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #fafafa;
+}
+hr{
+    border-width: 1px;
+}
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1em;
+    font-weight: 300;
+    line-height: 1.7em;
+    color: #999;
+}
+.padding-0{
+    padding-right:0;
+    padding-left:0;
+}
+.title{
+    font-size: 25px;
+}
+
+ span.value {
+    font-family: lato;
+    font-size: 23px;
+    color: #333;
+    display: inline-block;
+    width: 100%;
+}
+.subtitle{
+    font-size: 12px;
+}
+
+.subtitlevalue{
+    font-size: 15px;
+}
+
+.publishsection {
+    background: #ff5a5f !important;
+    color: #fefefe !important;
+    text-transform: uppercase !important;
+    height: 302px;
+    text-align: center;
+    width:100%;
+    cursor: pointer;
+}
+
+.book_list_cover_page {
+    margin-right: 13px;
+    margin-left: 20px;
+}
+.card-body-section{
+    height:110px;
+    width: 100%;
+}
+.referSection{
+    background: #666 !important;
+    color: #fefefe !important;
+    text-transform: uppercase !important;
+    height: 302px;
+    text-align: center;
+    width:100%;
+    cursor: pointer;
+}
+.publishing-inner a{
+    text-decoration: none;
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0 15px;
+    text-align: center;
+    text-transform: none;
+}
+
+.publishsection:hover{
+    background: #fefefe  !important;
+    color: #ff5a5f !important;
+    border-color: #ff5a5f!important;
+}
+.referSection:hover{
+    background: #fefefe  !important;
+    color: #666 !important;
+    border-color: #666!important;
+}
+
+.contentbottom{
+    border-bottom: 1px solid border-color;
+    margin-bottom: 25px;
+    padding-bottom: 25px;}
+.contentleft{
+    border-right: 1px solid border-color;
+    padding-top : 20px;
+    padding-bottom : 20px;}
+.contentright{padding-top: 20px;padding-bottom: 20px;}
+
+.spantext{
+    margin-right: 10px;
+    text-decoration: underline;
+    cursor: pointer;
+}
